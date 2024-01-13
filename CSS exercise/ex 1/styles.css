@@ -1,0 +1,55 @@
+h1{
+    margin:10px auto;
+    width:100%;
+    background-color: yellow;
+    text-align: center;
+}
+.row{
+    display: flex;
+}
+
+.col-1{
+    width: 15%;
+    /* border: 1px solid; */
+    padding: 10px;
+    
+}
+
+
+.col-1 ul{
+    list-style: none;
+    margin: 0;
+    padding:0;
+    
+}
+
+.col-2{
+    width:80%;
+    padding: 15px;
+    margin: 0 auto;
+    border-left:2px solid green;
+}
+
+.col-3{
+    width: 10%;
+    max-width: 220px;
+    min-width: 200px;
+    text-align: end;
+    margin:0 10px;
+    border: 2px dashed green;
+    max-height: 150px;
+    /* min-height: 120px; */
+    padding: 10px 15px;
+    
+}
+
+.col-3 li{
+    list-style: none;
+    color: blue;
+}
+
+.footer{
+    text-align: center;
+    margin: 15px auto;
+    padding: 15px;
+}

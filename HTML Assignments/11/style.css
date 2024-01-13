@@ -1,0 +1,130 @@
+body{
+    margin: 0 auto;
+    background-color: #f4f1f1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+img {
+    width: 100%;
+}
+
+header {
+    margin: 0 auto;
+    
+}
+
+header h1 {
+    background-color: black;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5em;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+p{
+    line-height: 1.6em;
+    text-align: justify;
+    font-size: 18px;
+    
+}
+
+nav li{
+    list-style: none;
+    padding: 8px;
+    display: inline-block;
+              
+}
+
+nav a{
+    
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(21, 49, 164);
+}
+
+.about{
+    margin: 10px;
+    padding: 15px;
+}
+
+.about li{
+    line-height: 1.5em;
+    font-size: 18px;
+    
+}
+
+
+/* Academics */
+
+section h2{
+    margin: 10px;
+    padding: 15px;
+}
+
+.academics{
+    line-height: 1.5em;
+    margin: 5px;
+}
+
+.academics li{
+    padding: 5px;
+}
+
+footer {
+    background-color: #1e1d1d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position:static;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a{
+    color: white;
+}
+
+/* form styles */
+form {
+    max-width: 400px;
+    margin-left: 25px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 15px;
+    padding: 5px 0;
+    font-size: 16px;
+    
+  }
+  
+  input,
+  select {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+  }
+  
+  button {
+    display: block;
+    margin-top: 25px;
+    background-color: #4c61af;
+    color: white;
+    padding: 10px 15px;
+    border: 2px white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: large;
+    margin-bottom: 20px;
+  
+  }
+
+  button:hover {
+    background-color: #c5cce9;
+    color:  #4c4eaf;
+    border: 1px solid #1f38f5;
+}

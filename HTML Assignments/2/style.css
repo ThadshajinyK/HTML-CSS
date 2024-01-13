@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  section {
+      margin-top: 20px;
+  }
+  
+  h2 {
+      color: #3a7e4f;
+      background-color: lightcyan;
+      width: 100%;
+      padding: 10px;
+      margin: 10px auto;
+  }
+  
+  p {
+      line-height: 1.6em;
+      padding: 15px;
+         
+  }
+  
+  table{
+      width:100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+  }
+  
+  th, td{
+      border: 1px solid black;
+      text-align: left;
+      padding: 8px;
+  
+  }
+  
+  th{
+      background-color: lightpink;
+  }
